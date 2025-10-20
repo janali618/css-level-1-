@@ -1,104 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>MARVELOUSCODEOPS</title>
+  <title>TechMire Solutions</title>
+
+  <!-- CSS Styling -->
+  <style>
+    /* General Page Styles */
+    body {
+      background-color: #f4f6f8;
+      font-family: "Segoe UI", Arial, sans-serif;
+      font-size: 16px;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    /* Header Styles */
+    header {
+      background-color: #0d47a1;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+
+    /* Navigation Bar */
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 15px 0 0 0;
+    }
+
+    nav ul li {
+      display: inline-block;
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav ul li a:hover {
+      color: #ffca28;
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid #ccc;
+      margin-top: 15px;
+    }
+
+    /* Main Content */
+    main {
+      padding: 30px;
+    }
+
+    section h2 {
+      color: #0d47a1;
+    }
+
+    section ul {
+      margin-top: 10px;
+    }
+
+    section ul li {
+      margin-bottom: 5px;
+    }
+
+    /* Articles */
+    form p {
+      background-color: #e3f2fd;
+      padding: 10px;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+
+    /* Footer */
+    footer {
+      background-color: #0d47a1;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 20px;
+    }
+
+    footer nav a {
+      color: #ffca28;
+      text-decoration: none;
+      margin: 0 8px;
+    }
+
+    footer nav a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 
 <body>
-  <header>
-    <!-- Left Logo -->
-    <div class="logo">
-      <!-- <img src="logo.png" alt="MARVELOUSCODEOPS" /> -->
-      <div class="logo-text">
-        <h1>MARVELOUSCODEOPS</h1>
-      </div>
-    </div>
 
-    <!-- Navbar -->
+  <!-- Header Section -->
+  <header>
+    <img src="" alt="">
+    <h1>TechMire Solutions</h1>
     <nav>
       <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About us</a></li>
-        <li><a href="#articles">Recent Articles</a></li>
-        <li><a href="#email">Email</a></li>
-        <li><a href="#resources">Resources</a></li>
-        <li><a href="#links">Links</a></li>
-        <li><a href="#contact">Contact us</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Recent Articles</a></li>
+        <li><a href="#">Email</a></li>
+        <li><a href="#">Resources</a></li>
+        <li><a href="#">Links</a></li>
+        <li><a href="#">Contact us</a></li>
       </ul>
     </nav>
+    <hr>
   </header>
+
+  <!-- Main Content Section -->
   <main>
-    <!-- Welcome Section -->
-    <section id="welcome" class="welcome-section">
-      <h2>Welcome to MARVELOUSCODEOPS</h2>
+    <section>
+      <h2>Welcome to TechMire Solutions</h2>
       <p>
-        At MARVELOUSCODEOPS, we build more than just software — we engineer intelligent,
-        scalable, and secure digital solutions that help businesses grow smarter.
+        Welcome to TechMire Solutions — your trusted partner in technology and innovation. 
+        We specialize in web design, development, and digital solutions that empower businesses 
+        to achieve online success.
       </p>
-      <ul class="services-list">
-        <li>
-          <h3>Professional Web Development Services</h3>
-          <img src="web-development1.png" alt="Professional web development services" width="150" height="150" />
-          <p>
-            We create responsive, user-friendly websites that help establish your online
-            presence and attract customers.
-          </p>
-        </li>
-        <li>
-          <h3>Comprehensive Digital Marketing Solutions</h3>
-          <img src="digital-marketing-company.jpeg" alt="Comprehensive digital marketing solutions" width="200" />
-          <p>
-            Our team develops effective marketing campaigns to increase your brand visibility
-            and customer engagement.
-          </p>
-        </li>
+      <ul>
+        <li>Providing innovative and user-friendly web solutions.</li>
+        <li>Delivering reliable, scalable, and modern technology services.</li>
       </ul>
     </section>
 
     <!-- Recent Articles Section -->
-    <section id="articles" class="articles-section">
+    <section>
       <h2>Recent Articles</h2>
-      <form action="/submit" method="post" class="article-form">
-        <label for="username">Username:</label><br />
-        <input type="text" id="username" name="username" required />
-        <br /><br />
-
-        <label for="password">Password:</label><br />
-        <input type="password" id="password" name="password" required />
-        <br /><br />
-
-        <label>Gender:</label><br />
-        <input type="radio" id="male" name="gender" value="male" />
-        <label for="male">Male</label>
-        <input type="radio" id="female" name="gender" value="female" />
-        <label for="female">Female</label>
-        <br /><br />
-
-        <input type="submit" value="Submit" />
+      <form>
+        <p>
+          <strong>1. Getting Started with HTML: The Foundation of Every Website</strong><br>
+          Learn how HTML forms the structure of web pages and explore essential tags used 
+          to build clean, accessible layouts.<br>
+        </p>
+        <p>
+          <strong>2. Understanding the Role of CSS in Web Design</strong><br>
+          Discover how CSS enhances HTML with color, spacing, and layout — transforming 
+          plain pages into visually engaging websites.<br>
+        </p>
+        <p>
+          <strong>3. Best Practices for Creating User-Friendly Navigation Menus</strong><br>
+          Explore simple techniques for organizing navigation links, improving user 
+          experience, and making your website easy to explore.<br>
+        </p>
       </form>
     </section>
   </main>
 
-  <!-- Footer -->
+  <!-- Footer Section -->
   <footer>
-    <img src="logo.png" alt="Company Logo" width="100" />
     <nav>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About us</a></li>
-        <li><a href="#articles">Recent Articles</a></li>
-        <li><a href="#email">Email</a></li>
-        <li><a href="#resources">Resources</a></li>
-        <li><a href="#links">Links</a></li>
-        <li><a href="#contact">Contact us</a></li>
-      </ul>
+      <a href="#">Home</a> |
+      <a href="#">About us</a> |
+      <a href="#">Recent Articles</a> |
+      <a href="#">Email</a> |
+      <a href="#">Resources</a> |
+      <a href="#">Links</a> |
+      <a href="#">Contact us</a>
     </nav>
-    <p>© 2023 MARVELOUSCODEOPS. All rights reserved.</p>
+    <p>&copy; 2025 TechMire Solutions. All rights reserved.</p>
   </footer>
-</body>
 
+</body>
 </html>
